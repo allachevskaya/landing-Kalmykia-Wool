@@ -242,6 +242,10 @@ element {
 @media (max-width: 420px) {
   .main {
     background-position-x: -398px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    min-height: 100vh;
   }
 }
 /*===============blur============*/
@@ -263,12 +267,7 @@ element {
 }
 @media (max-width: 801px) {
   .main__blur {
-    height: 158px;
-  }
-}
-@media (max-width: 384px) {
-  .main__blur {
-    height: 190px;
+    height: 402px;
   }
 }
 /*===============menu__burger============*/
@@ -319,9 +318,5 @@ element {
     height: -moz-max-content;
     height: max-content;
     min-height: 100vh;
-  }
-  .main__blur {
-    height: 146px;
-    opacity: 0.5;
   }
 }/*# sourceMappingURL=main.css.map */

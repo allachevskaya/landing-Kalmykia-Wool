@@ -308,6 +308,8 @@ element {
 @media (max-width:420px) {
     .main {
         background-position-x: -398px;
+        height: max-content;
+        min-height: 100vh;
     }
 }
 
@@ -331,14 +333,14 @@ element {
 
 @media (max-width:801px) {
     .main__blur{
-        height: 158px;
+        height: 402px;
     }
     
 }
-@media (max-width:384px) {
-    .main__blur {
-        height: 190px;}
-}
+// @media (max-width:384px) {
+//     .main__blur {
+//         height: 190px;}
+// }
 
 /*===============menu__burger============*/
 
@@ -396,8 +398,8 @@ element {
         height: max-content;
         min-height: 100vh;
     }
-    .main__blur{
-        height: 146px;
-        opacity: 0.5;
-    }
+    // .main__blur{
+    //     height: 146px;
+    //     opacity: 0.5;
+    // }
 }

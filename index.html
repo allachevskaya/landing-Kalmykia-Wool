@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main/main.css">
+    <link rel="stylesheet" href="./styles/about/about.css">
+    <title>Kalmyk Wool</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="main">
+            <div class="container__main">
+                <header class="main__header">
+                    <div class="main__header-menu">
+                        <div class="main__header-menu-left">
+                            <a class="menu-link" href="#about">О нас</a>
+                            <a class="menu-link" href="#partners">Партнеры</a>
+                            <a class="menu-link" href="#process">Процесс</a>
+                        </div>
+                    </div>
+
+                    <div class="main__header-logo">
+                        <a href="/index.html"><img src="./images/main/logo.svg" alt="Kalmyk Wool Logo"></a>
+                    </div>
+
+                    <div class="main__header-menu">
+                        <div class="main__header-menu-right">
+                            <a class="menu-link" href="#news">Новости</a>
+                            <a class="menu-link" href="#contacts">Контакты</a>
+                        </div>
+                        <div class="main__header-search">
+                            <img src="./images/main/search.svg" alt="поиск">
+                        </div>
+                    </div>
+
+                    <div class="menu__burger-img">
+                        <img src="./images/main/menu.svg" alt="">
+                    </div>
+
+
+                </header>
+                <div class="menu__burger close">
+                    <a class="menu-link" href="#about">О нас</a>
+                    <a class="menu-link" href="#partners">Партнеры</a>
+                    <a class="menu-link" href="#process">Процесс</a>
+                    <a class="menu-link" href="#news">Новости</a>
+                    <a class="menu-link" href="#contacts">Контакты</a>
+                </div>
+
+                <section class="main__content">
+                    <div class="main__content-text">
+                        <div class="main__content-text-title">
+                            Kalmyk Wool
+                        </div>
+                        <div class="main__content-text-subtitle">
+                            Переработка шерсти — одна из самых перспективных отраслей нашего региона. Калмыкия лидирует
+                            среди регионов России
+                        </div>
+                    </div>
+                    <div class="main__content-redirect">
+                        <a href="#">
+                            <p>Оставить заявку</p>
+                            <img src="./images/main/Arrow.png" alt="Оставить заявку">
+                        </a>
+                    </div>
+
+                </section>
+            </div>
+            <section class="main__blur"></section>
+        </section>
+
+        <section class="about">
+            
+                <div class="about-logo">
+                    <img src="./images/about/logo.png" alt="">
+                </div>
+                <div class="about-title">
+                    Переработка шерсти является одной из самых перспективных отраслей для нашего региона
+                </div>
+                <div class="about-text">
+                    
+                        <div class="about-text-box">
+                            <h1>12</h1>
+                            <p>Переработка шерсти является одной из самых перспективных отраслей для нашего региона</p>
+                        </div>
+                    
+                        <div class="about-text-box">
+                            <h1>10+</h1>
+                            <p>Переработка шерсти является одной из самых перспективных отраслей для нашего региона</p>
+                        </div>
+                    
+                  
+                </div>
+
+        
+        </section>
+    </div>
+
+    <script>
+        const iconMenu = document.querySelector('.menu__burger-img');
+        const menuItems = document.querySelector('.menu__burger')
+        iconMenu.addEventListener('click',()=>{
+            menuItems.classList.toggle('close')
+        })
+    </script>
+</body>
+
+</html>

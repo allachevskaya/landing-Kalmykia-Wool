@@ -1,0 +1,140 @@
+.about-logo {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1070px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    & img {
+        width: 260px;
+        height: 255px;
+    }
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin: 0 170px;
+    border: 1px solid red;
+    font-family: 'Montserrat';
+    margin-bottom: 100px;
+
+
+
+    &-title {
+        width: 100%;
+        padding: 250px 0 90px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 39.4595px;
+        line-height: 48px;
+        text-align: center;
+        max-width: 750px;
+
+        color: #3D4043;
+        margin: 0 auto;
+    }
+
+    &-text {
+        border: 1px solid rgb(38, 255, 0);
+        display: flex;
+        justify-content: space-around;
+
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+
+
+            & h1 {
+                border-bottom: 1px solid #3D4043;
+                padding: 20px 0;
+                text-align: center;
+                font-weight: 900;
+                font-size: 50.87px;
+                line-height: 62px;
+                /* identical to box height */
+
+                text-transform: uppercase;
+
+                /* Желтый */
+
+                color: #EDC147;
+            }
+
+            & p {
+                padding: 20px 20px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+
+                /* серы */
+
+                color: #3D4043;
+            }
+        }
+    }
+}
+
+
+.about-text-box::after {
+    content: '';
+    width: 1px;
+    height: 80px;
+    background-color: #3D4043;
+    position: relative;
+    top: -162px;
+    left: 249px;
+}
+
+
+
+
+@media (max-width:1284px) {
+    .about-logo {
+        top: 106%;
+    }
+}
+
+
+
+
+@media (max-width:1283px) {
+    .about {
+        margin: 0 70px;
+    }
+}
+
+@media (max-width:1043px) {
+    .about {
+        margin: 0 20px;
+    }
+
+}
+
+
+@media (max-width:801px) {
+    .about-logo {
+        display: none;
+    }
+    .about-title{
+        padding: 50px 0;
+        font-size: 30.4595px;
+    }
+}
+
+@media (max-width:600px) {
+    .about-title{
+      line-height: 42px;
+        padding: 100px 0 50px;
+    font-size: 26.4595px;
+    }
+    .about-text{
+        flex-direction: column;
+        align-items: center;
+    }
+}

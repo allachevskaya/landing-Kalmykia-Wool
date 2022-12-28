@@ -1,10 +1,9 @@
 .company {
   margin: 0 170px;
-  border: 1px solid red;
   margin-bottom: 100px;
   background: #3D4043;
   font-family: "Montserrat";
-  padding-bottom: 200px;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 1283px) {
@@ -14,7 +13,7 @@
 }
 @media (max-width: 1043px) {
   .company {
-    margin: 0 20px;
+    margin: 0 0px;
   }
 }
 /*===========company decor============*/
@@ -22,6 +21,7 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  position: relative;
 }
 .company-decors-decor {
   height: 180px;
@@ -38,9 +38,61 @@
   margin-left: auto;
 }
 
+.company-decors-mob {
+  display: none;
+}
+
+@media (max-width: 447px) {
+  .company-decors {
+    display: none;
+  }
+  .company-decors-mob {
+    display: flex;
+    width: 100%;
+    height: 110px;
+    justify-content: flex-start;
+  }
+  .company-decors-mob-decor {
+    background-image: url("../../images/company/Frame-decor-mob-left.png");
+    background-repeat: no-repeat;
+    width: 194px;
+    height: 100%;
+    margin-top: -55px;
+    background-size: contain;
+  }
+  .company-decors-mob-decorlittle {
+    background-image: url("../../images/company/Frame-decor-mob.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 205px;
+    height: 100%;
+    transform: scale(1.05);
+  }
+}
+.company-decor-bottom {
+  background-image: url("../../images/company/decor.png");
+  background-repeat: repeat;
+  background-size: contain;
+  width: 100%;
+  height: 344px;
+  margin-top: 250px;
+}
+
+@media (max-width: 1003px) {
+  .company-decor-bottom {
+    margin-top: 194px;
+    background-size: contain;
+    background-repeat: repeat;
+  }
+}
+@media (max-width: 600px) {
+  .company-decor-bottom {
+    margin-top: 131px;
+    height: 170px;
+  }
+}
 /*===========text============*/
 .company-title {
-  border: 1px solid red;
   margin: 20px 150px 100px;
   font-weight: 500;
   font-size: 40px;
@@ -56,7 +108,7 @@
   max-width: 620px;
   margin: 50px 150px;
   padding: 0px 50px 50px 0;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 .company-text-title {
   font-weight: 300;
@@ -68,20 +120,76 @@
   border-bottom: 1px solid #FFFFFF;
 }
 
+@media (max-width: 1003px) {
+  .company-title {
+    margin: 53px 47px;
+  }
+  .company-text {
+    margin: 50px 45px 165px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .company-title {
+    font-size: 27px;
+    margin: 64px 25px 10px;
+  }
+  .company-text {
+    padding: 16px 1px 40px 0;
+    margin: 70px 14px 100px 23px;
+  }
+  .company-text-title {
+    padding: 0 0 15px 15px;
+    font-size: 21px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 /*===========logos============*/
 .company-logos {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  border: 1px solid red;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 80px;
 }
 .company-logos img {
   width: auto;
-  height: 70px;
+  height: 80px;
 }
 
 #discover-wisconsin {
   height: 150px !important;
+}
+
+@media (max-width: 1003px) {
+  .company-logos {
+    margin-top: 47px;
+  }
+  .company {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 848px) {
+  .company-logos img {
+    width: auto;
+    height: 50px;
+  }
+  .company-logos {
+    flex-wrap: wrap;
+    gap: 44px;
+    flex: 1 1 180px;
+  }
+  .company-logos {
+    margin-top: 80px;
+    padding: 20px;
+  }
+}
+@media (max-width: 500px) {
+  #discover-wisconsin {
+    height: 120px !important;
+  }
+  .company-logos img {
+    height: 42px;
+  }
 }/*# sourceMappingURL=company.css.map */

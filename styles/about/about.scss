@@ -111,7 +111,7 @@
 
 @media (max-width:1043px) {
     .about {
-        margin: 0 20px;
+        margin: 0 27px;
     }
 
 }
@@ -137,4 +137,10 @@
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+
+@media (max-width:447px) {
+    .about{padding-bottom: 100px;}
 }

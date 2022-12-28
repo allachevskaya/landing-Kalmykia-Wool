@@ -3,7 +3,7 @@
   margin-bottom: 100px;
   background: #3D4043;
   font-family: "Montserrat";
-  padding-bottom: 0px;
+  padding-bottom: 280px;
 }
 
 @media (max-width: 1283px) {
@@ -67,28 +67,6 @@
     width: 205px;
     height: 100%;
     transform: scale(1.05);
-  }
-}
-.company-decor-bottom {
-  background-image: url("../../images/company/decor.png");
-  background-repeat: repeat;
-  background-size: contain;
-  width: 100%;
-  height: 344px;
-  margin-top: 250px;
-}
-
-@media (max-width: 1003px) {
-  .company-decor-bottom {
-    margin-top: 194px;
-    background-size: contain;
-    background-repeat: repeat;
-  }
-}
-@media (max-width: 600px) {
-  .company-decor-bottom {
-    margin-top: 131px;
-    height: 170px;
   }
 }
 /*===========text============*/
@@ -167,7 +145,7 @@
     margin-top: 47px;
   }
   .company {
-    padding-bottom: 0px;
+    padding-bottom: 117px;
   }
 }
 @media (max-width: 848px) {

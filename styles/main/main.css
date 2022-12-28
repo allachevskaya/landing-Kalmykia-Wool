@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+a {
+  outline: 0;
+}
+
 element {
   --main-bg-color: #F5F5F5;
   --main-text-color: #3D4043;
@@ -24,13 +28,13 @@ element {
   height: max-content;
   overflow-x: hidden;
   background-color: var(--main-bg-color);
+  font-family: "Montserrat";
 }
 
 .container__main {
   display: flex;
   flex-direction: column;
   margin: 0 170px;
-  font-family: "Montserrat";
 }
 
 .container__main > * {

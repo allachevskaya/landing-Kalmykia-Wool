@@ -1,5 +1,5 @@
 .company {
-  margin: 0 170px;
+  margin: 0 0px;
   margin-bottom: 100px;
   background: #3D4043;
   font-family: "Montserrat";
@@ -8,7 +8,7 @@
 
 @media (max-width: 1283px) {
   .company {
-    margin: 0 70px;
+    margin: 0 0px;
   }
 }
 @media (max-width: 1043px) {

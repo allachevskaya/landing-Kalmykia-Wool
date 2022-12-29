@@ -2,37 +2,22 @@
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  margin: 0 170px;
   margin-top: -215px;
   background-image: url("../../images/company/decor.png");
   background-size: 1000px;
-  border: 0.1px solid rgba(255, 0, 0, 0);
-  border-right: 1px solid #f5f5f5;
-  border-left: 1px solid #f5f5f5;
-  border-bottom: 1px solid #f5f5f5;
 }
 .process__container {
   border-radius: 464px 464px 0 0;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
-  background-color: #f5f5f5;
+  background-color: white;
   width: 100%;
   margin-top: 209px;
   padding: 250px 100px;
   color: #3D4043;
 }
 
-@media (max-width: 1283px) {
-  .process {
-    margin: 0 70px;
-  }
-}
-@media (max-width: 1043px) {
-  .process {
-    margin: 0 0px;
-  }
-}
 /*======text=====*/
 .process__container-text {
   display: flex;

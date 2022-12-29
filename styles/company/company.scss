@@ -180,28 +180,38 @@
     }
 }
 
-@media (max-width:848px) {
+@media (max-width:999px) {
     .company-logos img {
         width: auto;
         height: 50px;
     }
 
     .company-logos {
-        flex-wrap: wrap;
-        gap: 44px;
-        flex: 1 1 180px;
+        // flex-wrap: wrap;
+        // gap: 44px;
+        // flex: 1 1 180px;
     }
 
     .company-logos {
-        margin-top: 80px;
+        margin-top: 32px;
         padding: 20px;
+        & img{
+            width: auto;
+            height: 50px;
+        }
+    }
+    #discover-wisconsin {
+        height: 92px !important;
+    }
+    #anda{
+        height: 41px !important;
     }
 }
 
 @media (max-width:500px) {
-    #discover-wisconsin {
-        height: 120px !important;
-    }
+    // #discover-wisconsin {
+    //     height: 120px !important;
+    // }
     .company-logos img{
         height: 42px;
     }

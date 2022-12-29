@@ -1,10 +1,13 @@
 .process {
     height: max-content;
     margin: 0 170px;
-    margin-top: -185px;
-    border: 1px solid red;
+    margin-top: -215px;
     background-image: url('../../images/company/decor.png');
     background-size: 1000px;
+    border: 0.1px solid rgba(255, 0, 0, 0);
+    border-right:1px solid #f5f5f5 ;
+    border-left: 1px solid #f5f5f5 ;
+    border-bottom: 1px solid #f5f5f5 ;;
 
     &__container {
         border-radius: 464px 464px 0 0;
@@ -35,7 +38,6 @@
 
 .process__container-text {
 
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,7 +47,7 @@
     &-title {
         font-weight: 500;
         font-size: 32px;
-        line-height: 33px;
+        line-height: 39px;
         letter-spacing: 0.08em;
         text-transform: uppercase;
         text-align: center;
@@ -65,14 +67,13 @@
 /*====content===*/
 
 .process__container__content {
-    border: 1px solid orange;
+    
 
     &-box {
-        border: 1px solid red;
         margin: 50px 0 100px;
         display: flex;
         justify-content: space-around;
-        border: 1px solid rgb(0, 89, 255);
+       
 
         &-imgs {
             // width: 213.9px;
@@ -82,7 +83,7 @@
             background: #EDC147;
             border-radius: 160.232px;
             position: relative;
-            border: 1px solid rgb(0, 89, 255);
+           
 
             & img {
                 border-radius: 160.232px;
@@ -92,7 +93,7 @@
         }
 
         &-text {
-            border: 1px solid palegreen;
+          
             display: flex;
             align-items: center;
 
@@ -117,10 +118,11 @@
 @media (max-width:1460px) {
     .process__container {
         padding: 250px 22px;
+        padding-bottom: 100px;
     }
 
     .process__container-text {
-        padding: 0px 61px;
+        padding: 0px 24px;
     }
 }
 
@@ -197,7 +199,6 @@
     font-size: 100px;
     color: #3D4043;
     font-family: 'PF Regal Display Pro';
-    border: 1px solid red;
     display: flex;
     align-items: center;
 }
@@ -333,19 +334,19 @@ height: 571px;
         left: 257px;
     }
     .__box2 {
-        height: 546px;
+        height: 586px;
     }
     .__number2::before {
         left: 5% !important;
     }
     .process__container__content-box-text-title{
-        margin-top: -114px;
+        margin-top: -100px;
     }
     .process__container__content-box-text-title::before{
         left: 82%;
     }
     .__number3::before{
-        left: 82%;
+        left: 80%;
     }
     .process__container-text{
         padding: 0 10px;
@@ -356,12 +357,14 @@ height: 571px;
     .process__container__content-box-text-title p{
         max-width: 335px;
         border: 0;
+        padding-right: 0;
     }
     .process__container {
         padding: 168px 6px;
+        padding-bottom: 50px;
     }
     .process__container__content-box{
-        border: 1px solid #3D4043;
+        border-bottom: 1px solid #3D4043;
     }
 }
 
@@ -372,4 +375,5 @@ height: 571px;
     .__box2 {
         height: 590px;
     }
+    
 }

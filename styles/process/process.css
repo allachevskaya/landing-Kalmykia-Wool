@@ -242,13 +242,15 @@
   .process__container__content-box-imgs-decor2 {
     width: 50px !important;
     height: 50px !important;
+    top: 6px;
+    right: 16px;
   }
   .process__container__content-box-imgs-decor1 {
     width: 50px !important;
     height: 50px !important;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 199px;
   }
   .process__container-text {
     height: -webkit-max-content;
@@ -307,6 +309,7 @@
   }
   .process__container__content-box {
     border-bottom: 1px solid #3D4043;
+    padding: 0 18px;
   }
 }
 @media (max-width: 400px) {

@@ -228,8 +228,15 @@
     height: -moz-max-content;
     height: max-content;
     justify-content: space-between;
+    padding-bottom: 25px;
   }
   .news__content {
     gap: 46px;
+  }
+  .news__content-cards {
+    padding: 0 18px;
+  }
+  .news-text-title {
+    font-size: 33px;
   }
 }/*# sourceMappingURL=news.css.map */

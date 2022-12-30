@@ -212,7 +212,7 @@ element {
   }
   .main {
     background-attachment: fixed;
-    background-position-x: -189px;
+    background-position-x: 0;
   }
   .main__header-logo img {
     height: 71px;

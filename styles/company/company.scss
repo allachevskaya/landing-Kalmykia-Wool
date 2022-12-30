@@ -4,6 +4,7 @@
     background: #3D4043;
     font-family: 'Montserrat';
     padding-bottom: 280px;
+    position: relative;
 
 }
 
@@ -24,6 +25,7 @@
 .company-decors {
     height: max-content;
     position: relative;
+    top:-92px;
 
     &-decor {
         height: 180px;
@@ -49,7 +51,7 @@
 }
 
 @media (max-width:447px) {
-    .company-decors {
+    .company-decors, .under__decor{
         display: none;
     }
 
@@ -80,7 +82,18 @@
 
 }
 
+.under__decor{
+    position: absolute;
+    
+    top: -274px;
+    right: 0;
 
+    background-image: url('../../images/about/Frame\ 40.png');
+    width: 92px;
+    height: 275px;
+    
+    background-repeat: no-repeat;
+}
 
 
 /*===========text============*/
@@ -168,6 +181,9 @@
 #discover-wisconsin {
     height: 150px !important;
 }
+#anda{
+    height: 61px !important;
+}
 
 
 @media (max-width:1003px) {
@@ -208,13 +224,20 @@
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:542px) {
     // #discover-wisconsin {
     //     height: 120px !important;
     // }
     .company-logos img{
-        height: 42px;
+        height: 32px;
+    }
+    #discover-wisconsin {
+        height: 63px !important;
+    }
+    #anda {
+        height: 29px !important;
     }
     
-    
 }
+
+

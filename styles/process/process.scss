@@ -1,8 +1,10 @@
 .process {
     height: max-content;
-    margin-top: -215px;
+    margin-top: -115px;
     background-image: url('../../images/company/decor.png');
     background-size: 1000px;
+    padding-top: 1px;
+    border-bottom: 1px solid white;
     &__container {
         border-radius: 464px 464px 0 0;
         height: max-content;
@@ -14,18 +16,6 @@
     }
 }
 
-// @media (max-width:1283px) {
-//     .process {
-//         margin: 0 0px;
-//     }
-// }
-
-// @media (max-width:1043px) {
-//     .process {
-//         margin: 0 0px;
-//     }
-
-// }
 
 
 /*======text=====*/
@@ -409,4 +399,24 @@
 
 .process__container__content-box-number:hover{
     transform: rotate(360deg);
+}
+
+
+@media (max-width:1000px) {
+    .process{
+        margin-top: -5px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .process{
+        background-size: 633px;
+        padding-top: 1px;
+      
+    
+    }
+    .process__container{
+        margin-top: 63px;
+    }
 }

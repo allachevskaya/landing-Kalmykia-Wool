@@ -89,8 +89,9 @@ element {
         height: 85px;
         width: 100%;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-between;
+       
 
         &-menu {
             display: flex;

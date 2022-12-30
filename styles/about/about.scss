@@ -37,6 +37,7 @@
 
         color: #3D4043;
         margin: 0 auto;
+        padding-top: 100px;
     }
 
     &-text {
@@ -91,14 +92,15 @@
     left: 249px;
 }
 
-
-
-
-@media (max-width:1284px) {
-    .about-logo {
-        top: 106%;
-    }
+.about-logo{
+// border: 1px solid red;
+margin-top: -217px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+
 
 
 

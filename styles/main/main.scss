@@ -76,7 +76,9 @@ element {
 //page main
 
 .main {
-    background-image: url("../../images/main/bg-img.png");
+    // background-image: url("../../images/main/bg-img.png");
+    background-image: url('https://img.freepik.com/free-photo/lambs-looking-at-front-in-the-wooden-barn_342744-422.jpg?w=1380&t=st=1672409059~exp=1672409659~hmac=3d87c412c9a472ec7e88f16c5a78d50fab2e9d5836b84424e4a97c06064c10fa');
+    
     height: max-content;
     width: 100%;
     background-position: center;
@@ -284,6 +286,11 @@ element {
 @media (max-width:477px) {
     .main {
         background-attachment: fixed;
+       
+        background-repeat: no-repeat;
+        background: 
+		linear-gradient(rgba(0, 0, 0, 0.273), rgba(0, 0, 0, 0.8)), 
+		url('https://img.freepik.com/free-photo/lambs-looking-at-front-in-the-wooden-barn_342744-422.jpg?w=1380&t=st=1672409059~exp=1672409659~hmac=3d87c412c9a472ec7e88f16c5a78d50fab2e9d5836b84424e4a97c06064c10fa');
         background-position-x: -307px;
     }
 
@@ -405,16 +412,15 @@ element {
 
 
 @media (max-width:380px) {
-    .main {
-        background-position: center;
-        height: max-content;
-        min-height: 100vh;
-    }
-
-    // .main__blur{
-    //     height: 146px;
-    //     opacity: 0.5;
+    // .main {
+    //     background-position: center;
+    //     height: max-content;
+    //     min-height: 100vh;
     // }
+
+    .main__blur{
+        height:334px;
+    }
 }
 
 

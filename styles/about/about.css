@@ -443,6 +443,9 @@
     line-height: 38px;
     font-size: 17px;
   }
+  .about-title {
+    padding-bottom: 0;
+  }
 }
 @media (max-width: 564px) {
   .about__description {

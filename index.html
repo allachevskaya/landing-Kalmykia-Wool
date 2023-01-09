@@ -474,7 +474,8 @@
         const iconMenu = document.querySelector('.menu__burger-img');
         const menuItems = document.querySelector('.menu__burger')
         iconMenu.addEventListener('click', () => {
-            menuItems.classList.toggle('close')
+            menuItems.classList.toggle('close');
+            document.querySelector('.main__blur').classList.toggle('close')
         })
     </script>
 

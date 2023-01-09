@@ -267,13 +267,7 @@ element {
 
 @media (max-width: 600px) {
   .main__blur {
-    height: 226px;
     opacity: 0.5;
-  }
-}
-@media (max-width: 801px) {
-  .main__blur {
-    height: 402px;
   }
 }
 /*===============menu__burger============*/
@@ -465,5 +459,13 @@ element {
     font-size: 20px;
     line-height: 31px;
     padding: 40px 0;
+  }
+}
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+  .main {
+    height: 100vh;
+  }
+  .main__blur {
+    height: 428px;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -247,6 +247,7 @@ element {
         font-size: 24px;
         letter-spacing: 0.5px;
     }
+   
 
 }
 
@@ -341,17 +342,11 @@ element {
 
 @media (max-width:600px) {
     .main__blur {
-        height: 226px;
+        // height: 226px;
         opacity: 0.5;
     }
 }
 
-@media (max-width:801px) {
-    .main__blur {
-        height: 402px;
-    }
-
-}
 
 // @media (max-width:384px) {
 //     .main__blur {
@@ -603,4 +598,15 @@ element {
         padding: 40px 0;
     }
     
+}
+
+
+@media screen and (max-width: 768px), 
+       screen and (max-height: 1024px) {
+        .main{
+           height: 100vh;
+        }
+        .main__blur{
+            height: 428px;
+        }
 }

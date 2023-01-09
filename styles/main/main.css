@@ -254,6 +254,15 @@ element {
     min-height: 100vh;
   }
 }
+@media (max-width: 375px) {
+  .main {
+    background-position-x: -398px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    min-height: 900px;
+  }
+}
 /*===============blur============*/
 .main__blur {
   height: 373px;

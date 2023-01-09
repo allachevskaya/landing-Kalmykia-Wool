@@ -458,4 +458,12 @@ element {
 }
 .footer-container-nav-box a {
   text-align: start;
+}
+
+@media (max-width: 500px) {
+  .footer-title {
+    font-size: 20px;
+    line-height: 31px;
+    padding: 40px 0;
+  }
 }/*# sourceMappingURL=main.css.map */

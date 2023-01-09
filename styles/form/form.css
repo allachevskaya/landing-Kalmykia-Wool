@@ -100,7 +100,6 @@ input::placeholder {
 }
 
 .form__container-content-contact {
-  border: 1px solid green;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -212,8 +211,27 @@ input::placeholder {
 }
 @media (max-width: 500px) {
   .form-contacts {
-    padding: 35px 30px;
+    padding: 124px 30px;
     margin-top: 105px;
     gap: 30px;
+  }
+  .form__container-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+  .footer-container-nav-box a {
+    text-align: center;
+  }
+  .form__container-title {
+    font-size: 25px;
+    line-height: 21px;
+    padding-top: 50px;
+  }
+  .form__container-content form input {
+    padding: 15px;
+  }
+  .form__container-content form a p {
+    font-size: 19px;
   }
 }/*# sourceMappingURL=form.css.map */
